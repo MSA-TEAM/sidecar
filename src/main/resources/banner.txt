@@ -1,0 +1,17 @@
+
+${AnsiColor.BLUE}██████╗ ███████╗██╗   ██╗██████╗ ██████╗  ██████╗
+${AnsiColor.BRIGHT_BLUE}██╔══██╗██╔════╝██║   ██║██╔══██╗██╔══██╗██╔═══██╗
+${AnsiColor.BRIGHT_BLUE}██║  ██║█████╗  ██║   ██║██████╔╝██████╔╝██║   ██║
+${AnsiColor.BRIGHT_BLUE}██║  ██║██╔══╝  ╚██╗ ██╔╝██╔═══╝ ██╔══██╗██║   ██║
+${AnsiColor.BLUE}██████╔╝███████╗ ╚████╔╝ ██║     ██║  ██║╚██████╔╝
+${AnsiColor.BLUE}╚═════╝ ╚══════╝  ╚═══╝  ╚═╝     ╚═╝  ╚═╝ ╚═════╝
+${AnsiStyle.NORMAL}
+${AnsiColor.BLUE}███████╗██╗██████╗ ███████╗ ██████╗ █████╗ ██████╗
+${AnsiColor.BRIGHT_BLUE}██╔════╝██║██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗
+${AnsiColor.BRIGHT_BLUE}███████╗██║██║  ██║█████╗  ██║     ███████║██████╔╝
+${AnsiColor.BRIGHT_BLUE}╚════██║██║██║  ██║██╔══╝  ██║     ██╔══██║██╔══██╗
+${AnsiColor.BLUE}███████║██║██████╔╝███████╗╚██████╗██║  ██║██║  ██║
+${AnsiColor.BLUE}╚══════╝╚═╝╚═════╝ ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝
+${AnsiStyle.NORMAL}
+${AnsiColor.BRIGHT_YELLOW}Spring Boot : ${spring-boot.version}
+${AnsiStyle.NORMAL}

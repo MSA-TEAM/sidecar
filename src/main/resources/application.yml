@@ -1,0 +1,19 @@
+server:
+  port: 5678
+spring:
+  application:
+    name: UI
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://ip-172-31-13-153.ap-northeast-2.compute.internal:8761/eureka/
+  instance:
+    preferIpAddress: true
+    instanceId: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
+sidecar:
+  port: 5000
+  health-uri: http://localhost:5000/health.json
+endpoints:
+  shutdown:
+    enabled: true
+    sensitive: false
